@@ -1,5 +1,7 @@
 # 「 ✦ 𝐏𝐚𝐛𝐥𝐨 ✦ 」
 <img width="1063" height="290" alt="Captura de tela_2026-06-26_08-10-28" src="https://github.com/user-attachments/assets/08b44994-6848-484e-8c78-412d4f35dee6" />
+<img width="500" height="607" alt="aa41e462b5238121bceb03fdd3705d00" src="https://github.com/user-attachments/assets/4cd2a841-7e4d-4719-9c8c-ffee86cc8286" />
+
 <p align="left"> 
   <a href= target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="marcoshenrique.dev" height="40" width="40" /></a> &nbsp;&nbsp; 
   <a href= target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="MHDevelop" height="40" width="40" /></a> &nbsp;&nbsp; 
