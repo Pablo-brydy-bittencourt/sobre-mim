@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg, #8e2de2, #4a00e0);
+
+    min-height:100vh;
+
+    color:white;
+
+}
+
+.container{
+
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+
+}
+
+h1{
+
+    text-align:center;
+    font-size:50px;
+    margin-bottom:40px;
+
+}
+
+.sobre{
+
+    display:flex;
+    gap:30px;
+    align-items:center;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(10px);
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+.sobre img{
+
+    width:180px;
+    height:180px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid white;
+
+}
+
+.texto{
+
+    line-height:1.8;
+
+}
+
+.texto h2{
+
+    margin-bottom:15px;
+
+}
+
+.musica{
+
+    margin-top:50px;
+
+    background:rgba(245,255,255,.15);
+
+    backdrop-filter:blur(10px);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+.musica p{
+
+    margin:15px 0 25px;
+
+}
+
+.musica iframe{
+
+    width:100%;
+    max-width:700px;
+
+    height:390px;
+
+    border:none;
+
+    border-radius:15px;
+
+}
+
+.curiosidades{
+
+    margin-top:60px;
+
+}
+
+.curiosidades h2{
+
+    text-align:center;
+
+    margin-bottom:30px;
+
+}
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+}
+
+.card{
+
+    height:180px;
+
+    perspective:1000px;
+
+    cursor:pointer;
+
+}
+
+.inner{
+
+    width:100%;
+    height:100%;
+
+    position:relative;
+
+    transition:1s;
+
+    transform-style:preserve-3d;
+
+}
+
+.card.virou .inner{
+
+    transform:rotateY(180deg);
+
+}
+
+.frente,
+.verso{
+
+    position:absolute;
+
+    width:100%;
+    height:100%;
+
+    border-radius:20px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:20px;
+
+    backface-visibility:hidden;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+
+.frente{
+
+    background:white;
+
+    color:#333;
+
+    transition:.3s;
+
+}
+
+.frente:hover{
+
+    transform:scale(1.05);
+
+}
+
+.verso{
+
+    background:#ff9800;
+
+    transform:rotateY(180deg);
+
+    color:white;
+
+}
+
+@media(max-width:800px){
+
+    .sobre{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .musica iframe{
+
+        height:250px;
+
+    }
+
+}
